@@ -1,0 +1,25 @@
+# configuration file for server
+
+# le linee con casi di errore precedono i valori corretti e verranno ignorati dal programma
+ERRORE1=192.168.1.2
+ERRORE2=871847
+ERRORE3
+	#ERRORE4
+# altri casi di errore
+TCP_PORT=666666666
+UDP_PORT=
+MC_IP=239.25.32.32
+MC_IP=stringa_casuale
+MC_PORT=2
+REG_PORT=stringa_casuale
+TIMEOUT=-5
+
+
+SERVER_IP=localhost
+TCP_PORT=6666
+UDP_PORT=33333
+MC_IP=239.255.32.32
+MC_PORT=44444
+REG_HOST=localhost
+REG_PORT=8888
+TIMEOUT=100000

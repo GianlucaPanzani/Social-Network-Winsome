@@ -1,0 +1,5 @@
+#!/bin/bash
+
+javac WinsomeClient/*.java
+java WinsomeClient.ClientMain WinsomeClient/clientConfigFile.txt
+rm WinsomeClient/*.class

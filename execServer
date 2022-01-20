@@ -1,0 +1,5 @@
+#!/bin/bash
+
+javac -cp .:./WinsomeServer/lib/gson-2.8.9.jar WinsomeServer/*.java
+java -cp .:./WinsomeServer/lib/gson-2.8.9.jar WinsomeServer.ServerMain WinsomeServer/serverConfigFile.txt
+rm WinsomeServer/*.class
